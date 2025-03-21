@@ -230,7 +230,8 @@ void loop() {
     lcd.print("FOUND :)");
     delay(2000);
 
-    while (true) {
+    while (true) 
+    {
         BP32.update();
         processControllers();
         delay(100);
